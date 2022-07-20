@@ -1,0 +1,139 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Noto Serif Display', serif;
+}
+.main-content{
+min-height: 100vh;
+width: 80%;
+margin: 2rem auto;
+background-color: rgb(100, 226, 233);
+}
+.main-contact{
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    background-color: rgb(100, 226, 233);
+}
+.main-studies{
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    background-color: rgb(100, 226, 233);
+}
+
+.main-details{
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    background-color: rgb(100, 226, 233);
+}
+
+.main-message{
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    background-color: rgb(100, 226, 233);
+
+}
+
+.img-profil{
+    width: 300px;
+    border-radius: 2cm;
+    position: center;
+    display: block;
+    margin-left: 450px;
+}
+
+.first-page{
+    width: 750px;
+    border-radius: 2cm;   
+    display: block;
+    margin-left: 250px;
+}
+.name{
+    display: block;
+    margin-left: 450px;
+}
+
+body{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+background-color:rgb(27, 38, 39);
+}
+.hero{
+    height: 100%;
+    width:100%;
+    background-color:rgb(27, 38, 39);
+    position:absolute; 
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: rgb(100, 226, 233);
+    padding: 5px;  
+    overflow: hidden;
+}
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    border-radius: 30px; 
+}
+.toggle-btn{
+    border: 0;
+    background: transparent;
+    padding: 10px 30px; 
+    outline: none;
+    cursor: pointer;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position:absolute;
+    width: 250px;
+    height: 100%;
+    background: linear-gradient(to right,#ff05);
+    border-radius: 30px;
+    transition: .5s;
+}
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    border: 0cm;
+    outline: none;
+    border-radius: 30px;
+    background: #2ecc71;
+}
+#login{
+    left: 50px;
+}
+ #register{
+    left: 450px;
+}
