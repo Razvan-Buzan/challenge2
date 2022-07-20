@@ -1,55 +1,26 @@
 <!DOCTYPE html>
-<Html:5>
-</Html:5>
-<html lang="en" dir="ltr">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport"content="width=device-width,user-scalable=no,intial-scale=1 ">
-        <meta http-equiv="X-UA-Compatible"  content="IE=edge">
-        <title>Login Form</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="hero">
-            <div class="form-box">
-                <div class="button-box">
-                    <div id="btn"></div>
-                    <button type="button"class="toggle-btn" onclick="login()">Login</button>
-                    <button type="button"class="toggle-btn" onclick="register ()">Register</button>
-                    
-                    
-                </div>  
-                <form id="login" class="input-group" action="start.html" method="post">
-                    <input type="text" class="input-field" placeholder="User Id" required>
-                    <input type="password" class="input-field" placeholder="Password" required>
-                    <button type="submit" class="submit-btn">Login</button>
-                </form>
-                <form id="register" class="input-group">
-                    <input type="email" class="input-field" placeholder="Email Id" reqired>
-                    <input type="text" class="input-field" placeholder="User Id" required>
-                    <input type="password" class="input-field" placeholder="Password" required>
-                    <button type="submit" class="submit-btn">Register</button>
-                </form>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Resume</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <main class="main-content">
+            <h1>Welcome to my portofolio</h1>
+            <div class="box">
+                <img class="first-page" src="first page.webp" alt="first page">
             </div>
-        </div>    
-       <script>
-        var x= document.getElementById("login")
-        var y= document.getElementById("register")
-        var z= document.getElementById("btn")
-        
-        function register(){
-        
-        x.style.left="-400px";
-        y.style.left="50px";
-        z.style.left="110px";      
-        
-        } 
-        function login(){
-        
-        x.style.left="50px";
-        y.style.left="450px";
-        z.style.left="0px";      
-        }        
-       </script>    
-    </body>
+            <h2><p class="p-welcome">Feel free to look around my CV</p></h2> 
+            <h3>Visit my Contact page <a href="contact.html"> here</a><br> </h3> 
+            <h3>Check my academical background and previous work experience <a href="studies.html"> here</a></h3> 
+            <h3>Visit my Details page <a href="details.html"> here</a></h3>    
+            <h3>Feel free to message me<a href="message.html"> here</a><br> </h3>
+    </main>
+</body>
 </html>
