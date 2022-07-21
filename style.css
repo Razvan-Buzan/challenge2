@@ -4,6 +4,8 @@
     box-sizing: border-box;
     list-style: none;
     font-family: 'Noto Serif Display', serif;
+   
+    
 }
 .main-content{
 min-height: 100vh;
@@ -18,10 +20,11 @@ background-color: rgb(100, 226, 233);
     background-color: rgb(100, 226, 233);
 }
 .main-studies{
-    min-height: 100vh;
-    width: 80%;
+    min-height: 300vh ;
+    width: 95%;
     margin: 2rem auto;
-    background-color: rgb(100, 226, 233);
+    background-image: url(pexels-nothing-ahead-8102158.jpg);
+    background-size: auto;
 }
 
 .main-details{
@@ -136,4 +139,12 @@ background-color:rgb(27, 38, 39);
 }
  #register{
     left: 450px;
+}
+.background-vid{
+margin: 0 auto;
+width: 1000px;
+}
+video{
+
+width: 100%;
 }
